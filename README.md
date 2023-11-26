@@ -1,46 +1,46 @@
 # Projeto de Estacionamento .NET 6
 
-Bem-vindo ao projeto de estacionamento utilizando .NET 6! Este projeto foi desenvolvido como parte do Bootcamp **Programação C# com CRM Dynamics**, com o objetivo de criar um sistema simples de gerenciamento de estacionamento.
+Bem-vindo ao projeto de estacionamento utilizando .NET 6! Este projeto foi desenvolvido como parte do Bootcamp **ProgramaÃ§Ã£o C# com CRM Dynamics**, com o objetivo de criar um sistema simples de gerenciamento de estacionamento.
 
 ## Funcionalidades
 
 O projeto inclui as seguintes funcionalidades:
 
-- **Cadastro de Entrada de Veículos:** Permite adicionar veículos ao estacionamento, registrando a placa do veículo.
+- **Cadastro de Entrada de VeÃ­culos:** Permite adicionar veÃ­culos ao estacionamento, registrando a placa do veÃ­culo.
 
-- **Cadastro de Saída de Veículos:** Possibilita remover veículos do estacionamento, calculando o custo com base no tempo de permanência.
+- **Cadastro de SaÃ­da de VeÃ­culos:** Possibilita remover veÃ­culos do estacionamento, calculando o custo com base no tempo de permanÃªncia.
 
-- **Relatórios de Veículos no Pátio:** Exibe a lista de veículos atualmente estacionados.
+- **RelatÃ³rios de VeÃ­culos no PÃ¡tio:** Exibe a lista de veÃ­culos atualmente estacionados.
 
 ## Tecnologias Utilizadas
 
 - .NET 6
 
-## Configuração do Ambiente
+## ConfiguraÃ§Ã£o do Ambiente
 
 Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
 
 - **.NET 6 SDK**
 - **Visual Studio 2022** (ou Visual Studio Code)
 
-## Observações
+## ObservaÃ§Ãµes
 
-- **Cadastro de Placas Duplicadas:** Se tentar cadastrar a mesma placa duas vezes, receberá uma mensagem de erro indicando que o veículo já está estacionado.
+- **Cadastro de Placas Duplicadas:** Se tentar cadastrar a mesma placa duas vezes, receberÃ¡ uma mensagem de erro indicando que o veÃ­culo jÃ¡ estÃ¡ estacionado.
 
-- **Formato Decimal Flexível:** Não importa se você utilizar decimais separados por "." ou ",", o sistema é flexível em relação a ambos os formatos para configurar os preços iniciais e por hora.
+- **Formato Decimal FlexÃ­vel:** NÃ£o importa se vocÃª utilizar decimais separados por "." ou ",", o sistema Ã© flexÃ­vel em relaÃ§Ã£o a ambos os formatos para configurar os preÃ§os iniciais e por hora.
 
 ## Como Usar
 
-1. Clone o repositório:
+1. Clone o repositÃ³rio:
 
 ```bash
-git clone https://github.com/seu-usuario/estacionamento-dotnet
+git clone https://github.com/seu-usuario/Estacionamento-BootcampDIO
 ```
 
-2. Navegue até o diretório do projeto:
+2. Navegue atÃ© o diretÃ³rio do projeto:
 
 ```bash
-cd estacionamento-dotnet
+cd Estacionamento-BootcampDIO
 ```
 
 3. Execute o projeto:
@@ -49,12 +49,12 @@ cd estacionamento-dotnet
 dotnet run
 ```
 
-4. Siga as instruções no console para interagir com o estacionamento (adicionar/remover/listar veículos).
+4. Siga as instruÃ§Ãµes no console para interagir com o estacionamento (adicionar/remover/listar veÃ­culos).
 
-## Contribuição
+## ContribuiÃ§Ã£o
 
-Sinta-se à vontade para contribuir com melhorias, correções de bugs ou novos recursos. Abra uma issue para discutir grandes alterações antes de enviar um pull request.
+Sinta-se Ã  vontade para contribuir com melhorias, correÃ§Ãµes de bugs ou novos recursos. Abra uma issue para discutir grandes alteraÃ§Ãµes antes de enviar um pull request.
 
-## Licença
+## LicenÃ§a
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto estÃ¡ licenciado sob a [LicenÃ§a MIT](LICENSE).
